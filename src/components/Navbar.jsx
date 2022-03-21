@@ -84,9 +84,9 @@ const Navbar = () => {
            <Mail />
           </Badge>
           <Badge badgeContent={2} color='secondary' className={classes.badge}>
-           <Notifications src={'https://i.guim.co.uk/img/uploads/2018/05/25/Sid-Lowe.jpg?width=140&height=140&quality=85&auto=format&fit=max&s=4ee8d5d1e19966526484fd76c4c86aab'} />
+           <Notifications />
           </Badge>
-          <Avatar />
+          <Avatar alt='Trevor Henderson' src='https://material-ui.com/static/images/avatar/5.jpg' />
         </div>
       </Toolbar>
     </AppBar>
